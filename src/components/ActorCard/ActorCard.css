@@ -1,0 +1,22 @@
+.actor-card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    margin: 15px;
+    overflow: hidden;
+    width: 200px;
+  }
+  
+  .actor-card-background {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+  }
+  
+  .actor-card h3 {
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+  }
