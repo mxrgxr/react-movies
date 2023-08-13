@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import LoginPage from './pages/LoginPage/LoginPage';
-import NavBar from './components/NavBar/NavBar';
-import MoviesListPage from './pages/MoviesListPage/MoviesListPage';
-import MovieDetailPage from './pages/MovieDetailPage/MovieDetailPage';
-import ActorsListPage from './pages/ActorListPage/ActorListPage';
+import LoginPage from '../LoginPage/LoginPage';
+import NavBar from '../../components/NavBar/NavBar';
+import MoviesListPage from '../MoviesListPage/MoviesListPage';
+import MovieDetailPage from '../MovieDetailPage/MovieDetailPage';
+import ActorsListPage from '../ActorListPage/ActorListPage';
 import './App.css';
 
 export default function App() {
